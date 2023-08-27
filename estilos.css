@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(114, 114, 114);
+    font-family: 'roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+
+p{
+    color:rgb(255, 255, 255);
+    font-style:unset;
+    font-size: 24px;
+}
+
+div h1{
+    color: bisque;
+}
+
+/* IDs y clases */
+/* IDs son unicos por elemento */
+/* clases son repetibles */
+
+#parrafo-especial{
+    font-size: 1.5em;
+    font-weight:bold;
+    padding: 8px;
+  margin: 25px;
+  
+  /* other styling */
+  background-color: #33475b;
+  border-radius: 10px;
+  color: white;
+  font-family: Arial;
+}
+
+.parrafo{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+div h1{
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
+        font-family: arial; color: rgb(255, 255, 255);
+       }
+
+
+       #p0{
+        text-indent: 2em;
+       }
+
+a, img{
+    display: block;
+}
+
+a{
+    margin: 50px 20px;
+    /* text-decoretion: none;
+    color: black
+    para que parezca un texto normal el link */
+}
+
+/* a:hover{
+    color: blue;
+    para cuando acerquemos el mouse al link cambie de color
+    y se diferencie de los otros textos */
+
+img{
+    width: 70%;
+    margin: auto;
+}
